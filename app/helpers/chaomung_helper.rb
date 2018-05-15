@@ -1,0 +1,2 @@
+module ChaomungHelper
+end
