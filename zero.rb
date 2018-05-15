@@ -55,7 +55,6 @@ class Hocsinh
 end
 
 
-
 hs1 = Hocsinh.new("DUY","Ruby")
 
-hs1.casewhen()
+puts Time.now
