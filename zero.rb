@@ -7,15 +7,16 @@ class Hocsinh
       @nna = nn
    end
    def hienthi()
-      puts "Xin chao #@hotena #@nna - #$bientoancuc - #@@bientrongclass"
+	@bientrongham = 30
+      puts "Xin chao #@hotena #@nna - #$bientoancuc - #@@bientrongclass - #{@bientrongham}"
    end
    def hienthi2()
-      puts "Xin chao #@hotena #@nna - #$bientoancuc - #@@bientrongclass"
+	@bientrongham = 40
+      puts "Xin chao #@hotena #@nna - #$bientoancuc - #@@bientrongclass - #{@bientrongham}"
    end
 end
 
 hs1 = Hocsinh.new("DUY","Ruby")
-hs2 = Hocsinh.new("Duc","Ruby2")
 
+hs1.hienthi()
 hs1.hienthi2()
-hs2.hienthi2()
