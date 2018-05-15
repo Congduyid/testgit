@@ -34,8 +34,23 @@ class Hocsinh
 	elsif
 		print "x < 20"
 	end
-
    end
+
+	def casewhen
+		$age =  20
+		case $age
+		when 0 .. 2
+		   puts "baby"
+		when 3 .. 6
+		   puts "little child"
+		when 7 .. 12
+		   puts "child"
+		when 13 .. 18
+		   puts "youth"
+		else
+		   puts "adult"
+		end	
+	end
 
 end
 
@@ -43,8 +58,4 @@ end
 
 hs1 = Hocsinh.new("DUY","Ruby")
 
-hs1.hienthi()
-hs1.hienthi2()
-hs1.chuoi()
-hs1.dieukien()
-
+hs1.casewhen()
